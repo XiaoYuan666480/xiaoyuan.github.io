@@ -11,12 +11,12 @@ function goPAGE() {
         // window.location.href="移动端url";
         //  alert("mobile");
         //判断访问环境是 移动端 则加载以下样式
-        setStyle(['SpeedTest/css/moble.css']);
+        setStyle(['/xiaoyuan.github.io/SpeedTest/css/moble.css']);
     }
     else {
         // window.location.href="pc端url"; 
         //   alert("pc")
-        setStyle(['SpeedTest/css/pc.css']);
+        setStyle(['/xiaoyuan.github.io/SpeedTest/css/pc.css']);
     }
 }
 goPAGE();        // 调用function
